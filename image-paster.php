@@ -2,7 +2,7 @@
 /*
 Plugin Name: Image Paster
 Plugin URI:  http://zengxiaoluan.com/image-paster
-Description: 截图、复制、粘贴、图片就在你的眼前。
+Description: 截图、粘贴、图片就在你的眼前。
 Version:     1.0
 Author:      zengxiaoluan
 Author URI:  http://zengxiaoluan.com/
