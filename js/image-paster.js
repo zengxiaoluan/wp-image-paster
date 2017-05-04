@@ -26,10 +26,13 @@
                     var item = items[index];
                     if (item.kind === 'file') {
                         var blob = item.getAsFile();
+                        // console.log(blob);
+                        // var blobUrl = URL.createObjectURL(blob);
+                        // return_text = '<img src="' + blobUrl + '">';
+                        // ed.execCommand('mceInsertContent', 0, return_text);
                         var reader = new FileReader();
                         reader.onload = function(event){
-                            var return_text = '';
-                            return_text = '<img src="' + event.target.result + '">';
+                            var return_text = '<img src="' + event.target.result + '">';
                             ed.execCommand('mceInsertContent', 0, return_text);
                         };
                         reader.readAsDataURL(blob);
